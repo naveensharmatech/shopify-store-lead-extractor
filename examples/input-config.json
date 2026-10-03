@@ -1,0 +1,6 @@
+{
+  "searchTerms": ["Beauty & Cosmetics", "Fitness & Sports"],
+  "maxResults": 50,
+  "detectTechStack": true,
+  "proxyConfiguration": { "useApifyProxy": true }
+}

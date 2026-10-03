@@ -1,0 +1,20 @@
+[
+  {
+    "storeName": "Example Store",
+    "domain": "example-store.com",
+    "website": "https://example-store.com",
+    "category": "Beauty & Cosmetics",
+    "catalogSize": 120,
+    "detectedApps": ["Klaviyo", "Yotpo"],
+    "email": "hello@example-store.com",
+    "allEmails": ["hello@example-store.com"],
+    "socialLinks": {
+      "linkedin": null,
+      "facebook": "https://facebook.com/examplestore",
+      "instagram": "https://instagram.com/examplestore",
+      "tiktok": null,
+      "twitter": null
+    },
+    "source": "Opility Shopify Engine"
+  }
+]
