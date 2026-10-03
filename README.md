@@ -297,10 +297,17 @@ shopify-store-lead-extractor/
 │   └── output_schema.json
 ├── src/
 │   └── main.py
+├── docs/            # ARCHITECTURE, SETUP, APP-DETECTION, API-REFERENCE, PERFORMANCE
+├── examples/        # input-config.json, output-samples.json, use-cases.md
+├── assets/          # detection-guide, store-examples, performance-data
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
 ```
+
+### Documentation
+
+[Architecture](docs/ARCHITECTURE.md) · [Setup](docs/SETUP.md) · [App Detection](docs/APP-DETECTION.md) · [API Reference](docs/API-REFERENCE.md) · [Performance](docs/PERFORMANCE.md) · [Examples](examples/use-cases.md)
 
 ---
 
@@ -334,7 +341,7 @@ Create structured prospect datasets for downstream qualification workflows.
 
 ## 🏢 Developed & Maintained By
 
-**Built by Opility**
+**Built by Opility** — created by Naveen Sharma, Python Developer & Data Extraction Specialist (Python, Apify, web-scraping architecture)
 
 AI Automation • Workflow Automation • Web Data Extraction • No-Code/Low-Code Solutions
 
