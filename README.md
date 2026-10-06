@@ -1,9 +1,35 @@
 # ⚡ Shopify Store Lead Extractor
 
+[🛍️ Shopify Leads, Public Emails, Social Profiles, Catalog Signals & App Detection](#section-1) · [🎯 The Challenge](#section-2) · [✨ The Solution](#section-3) · [🏆 Key Features](#section-4)
+
+### 🗺️ Visual overview
+
+A visual guide to the project and the documentation below.
+
+```mermaid
+flowchart LR
+  A["Search or store input"] --> B["Shopify discovery"]
+  B --> C["Website analysis"]
+  C --> D["Contacts, catalog and app signals"]
+  D --> E["Deduplicate"]
+  E --> F["Apify Dataset"]
+  classDef input fill:#DBEAFE,stroke:#2563EB,color:#172554
+  classDef process fill:#FFF0DB,stroke:#FF6B35,color:#431407
+  classDef output fill:#DCFCE7,stroke:#16A34A,color:#14532D
+  class A input
+  class B,C,D process
+  class E output
+```
+
+---
+
+
 [![Apify Actor](https://img.shields.io/badge/Apify-Actor-orange?style=for-the-badge&logo=apify)](https://apify.com/opility/shopify-store-lead-extractor-emails-catalog-size-apps)
 [![Status](https://img.shields.io/badge/Status-Live%20%26%20Deployed-brightgreen?style=for-the-badge)](https://apify.com/opility/shopify-store-lead-extractor-emails-catalog-size-apps)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)](https://python.org/)
 [![MCP](https://img.shields.io/badge/MCP-AI%20Agent%20Enabled-0A66C2?style=for-the-badge)](https://apify.com/opility/shopify-store-lead-extractor-emails-catalog-size-apps/api/mcp)
+
+<a id="section-1"></a>
 
 ## 🛍️ Shopify Leads, Public Emails, Social Profiles, Catalog Signals & App Detection
 
@@ -22,6 +48,8 @@ Built for ecommerce agencies, Shopify consultants, B2B lead-generation teams, ap
 
 ---
 
+<a id="section-2"></a>
+
 ## 🎯 The Challenge
 
 Finding Shopify stores that match a specific niche or technology profile can require significant manual research.
@@ -38,6 +66,8 @@ Typical tasks include:
 | 📊 Data organization | Copy information into spreadsheets or CRMs |
 
 ---
+
+<a id="section-3"></a>
 
 ## ✨ The Solution
 
@@ -72,6 +102,8 @@ Apify Dataset Output
 - 📊 **Structured Output** — Saves results to the Apify Dataset
 
 ---
+
+<a id="section-4"></a>
 
 ## 🏆 Key Features
 
